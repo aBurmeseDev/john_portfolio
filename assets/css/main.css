@@ -2440,10 +2440,17 @@ body.is-preload #header footer {
 
   #header {
     padding: 10em 0 12em 0;
+    margin-top: 7rem;
   }
   /* Container */
   .container {
     width: 77rem;
+  }
+  #header footer {
+    bottom: -2rem;
+  }
+  #banner {
+    margin-top: 14rem;
   }
 }
 
@@ -2461,7 +2468,9 @@ body.is-preload #header footer {
 
   #header {
     padding: 8em 0 10em 0;
+    margin-top: 23rem;
   }
+
   /* Box */
 
   .box {
@@ -2601,6 +2610,7 @@ body.is-preload #header footer {
 
   #header {
     padding: 10em 0 12em 0;
+    margin-top: 7rem;
   }
 
   /* Banner */
@@ -2761,6 +2771,7 @@ body.is-preload #header footer {
 
   #header {
     padding: 6em 0 6em 0;
+    margin-top: 13rem;
   }
 
   #header header {
@@ -2776,6 +2787,7 @@ body.is-preload #header footer {
   #header footer {
     bottom: 4.5em;
     padding: 0 2em 0 2em;
+    margin-bottom: -14rem;
   }
 
   #header footer:after {
@@ -2834,5 +2846,13 @@ body.is-preload #header footer {
 
   .poptrox-popup .closer {
     opacity: 0.5;
+  }
+}
+@media screen and (max-width: 376px) {
+  #header footer {
+    bottom: 4rem;
+  }
+  #header {
+    margin-top: 8rem;
   }
 }
