@@ -10,9 +10,7 @@
 html,
 body,
 div,
-span {
-  color: #ffffff;
-}
+span,
 applet,
 object,
 iframe,
@@ -22,10 +20,7 @@ h3,
 h4,
 h5,
 h6,
-p {
-  color: #000000;
-}
-,
+p,
 blockquote,
 pre,
 a,
@@ -1584,7 +1579,10 @@ article:last-child {
 .row > article {
   margin-bottom: 0;
 }
-
+/* Project Label */
+.projectLabel {
+  color: #ffffff;
+}
 /* Image */
 
 .image {
