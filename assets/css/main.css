@@ -2619,6 +2619,9 @@ body.is-preload #header footer {
   #banner br {
     display: none;
   }
+  #more_footer {
+    margin-top: 5rem;
+  }
 }
 
 /* Mobile */
@@ -2850,5 +2853,8 @@ body.is-preload #header footer {
   }
   #header {
     margin-top: 4rem;
+  }
+  #more_footer {
+    margin-top: 6rem;
   }
 }
