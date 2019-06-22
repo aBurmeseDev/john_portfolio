@@ -308,10 +308,6 @@ table {
   margin-bottom: 1em;
 }
 
-header {
-  margin-bottom: 1em;
-}
-
 header p {
   display: block;
   margin: 0.5em 0 0 0;
@@ -2771,7 +2767,7 @@ body.is-preload #header footer {
 
   #header {
     padding: 6em 0 6em 0;
-    margin-top: 13rem;
+    margin-top: 10rem;
   }
 
   #header header {
@@ -2853,6 +2849,6 @@ body.is-preload #header footer {
     bottom: 4rem;
   }
   #header {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 }
