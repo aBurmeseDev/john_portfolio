@@ -173,7 +173,7 @@ html {
 }
 
 body {
-  background-color: #183026;
+  background-color: #070010;
   background-image: url('images/overlay.png'), url('../../images/bg.jpg');
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -184,7 +184,7 @@ body {
   line-height: 1.75em;
   font-weight: 300;
   letter-spacing: 1px;
-  color: #3a3939;
+  color: #000000;
   text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
   -webkit-text-stroke: 0.25px;
 }
@@ -266,7 +266,7 @@ a {
   -webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
   -ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
   transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-  color: #3399ff;
+  color: #0072e9;
   text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
   text-decoration: none;
   border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -2189,14 +2189,14 @@ body.is-preload #header footer {
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
-  background: #3399ff url('images/banner.svg') bottom center no-repeat;
+  background: #0042ab url('images/banner.svg') bottom center no-repeat;
   padding: 5em 0 5em 0;
   margin: 0;
   background-size: 125% auto;
 }
 
 #banner .button {
-  color: #3399ff;
+  color: #0042ab;
   text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 }
 
