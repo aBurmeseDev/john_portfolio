@@ -2419,7 +2419,11 @@ body.is-preload #header footer {
 .poptrox-popup:hover .closer:hover {
   opacity: 1;
 }
-
+/* Back To Top */
+#up {
+  position: absolute;
+  right: 2rem;
+}
 /* Wide */
 
 @media screen and (max-width: 1680px) {
