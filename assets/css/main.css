@@ -2443,7 +2443,7 @@ body.is-preload #header footer {
     width: 77rem;
   }
   #header footer {
-    bottom: -2rem;
+    bottom: 1rem;
   }
   #banner {
     margin-top: 14rem;
