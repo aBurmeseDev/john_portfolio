@@ -2193,6 +2193,7 @@ body.is-preload #header footer {
   padding: 5em 0 5em 0;
   margin: 0;
   background-size: 125% auto;
+  margin-left: 0.1rem;
 }
 
 #banner .button {
@@ -2450,7 +2451,7 @@ body.is-preload #header footer {
     bottom: 1rem;
   }
   #banner {
-    margin-top: 14rem;
+    margin-top: 11rem;
   }
 }
 
@@ -2462,6 +2463,7 @@ body.is-preload #header footer {
   #banner {
     padding: 4em 0 4em 0;
     background-size: auto, 175% auto;
+    margin-top: 11rem;
   }
 
   /* Header */
@@ -2618,6 +2620,7 @@ body.is-preload #header footer {
   #banner {
     padding: 3.5em;
     background-size: 200% auto;
+    margin-top: 11rem;
   }
 
   #banner br {
@@ -2813,6 +2816,7 @@ body.is-preload #header footer {
   #banner {
     padding: 3em 2em 3em 2em;
     background-size: auto 150%;
+    margin-top: 14rem;
   }
 
   #banner header {
