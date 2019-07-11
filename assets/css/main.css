@@ -2089,6 +2089,11 @@ button.style3:hover,
 
 /* Header */
 
+.headPic {
+  width: 18rem;
+  height: auto;
+  border-radius: 20px;
+}
 #header {
   -moz-transition: opacity 2s ease-in-out;
   -webkit-transition: opacity 2s ease-in-out;
