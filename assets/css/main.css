@@ -2251,7 +2251,7 @@ body.is-preload #header footer {
   display: block;
 }
 #more_footer {
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 /* Footer */
 
@@ -2453,7 +2453,7 @@ body.is-preload #header footer {
   /* Header */
 
   #header {
-    padding: 10em 0 12em 0;
+    padding: 3em 0 4em 0;
     margin-top: 4rem;
   }
   /* Container */
