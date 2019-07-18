@@ -2,7 +2,7 @@
 
 ### Author
 
-* **John Lwin** - [Github](https://github.com/aBurmeseDev)
+* **John Lwin** - [see other works](https://www.johnlwin.info)
 
 ### License
 
