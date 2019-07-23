@@ -2440,7 +2440,7 @@ body.is-preload #header footer {
 } */
 /* Wide */
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1440px) {
   /* Basic */
 
   body,
@@ -2468,8 +2468,13 @@ body.is-preload #header footer {
   }
 }
 
-/* Normal */
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+  /* Header */
 
+  #header {
+    margin-top: 0rem;
+  }
+}
 @media screen and (max-width: 1080px) {
   /* Banner */
 
