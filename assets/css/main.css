@@ -2434,10 +2434,13 @@ body.is-preload #header footer {
   opacity: 1;
 }
 /* Back To Top */
-/* #up {
+#up {
   position: absolute;
-  right: 2rem;
-} */
+  right: 1rem;
+  /* font-size: 0.75rem;
+  border: 3px solid white;
+  border-radius: 20px; */
+}
 /* Wide */
 
 @media screen and (max-width: 1440px) {
