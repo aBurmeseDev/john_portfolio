@@ -334,11 +334,11 @@ br.clear {
   width: 87rem;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1680px) {
+/* @media screen and (min-width: 1200px) and (max-width: 1680px) {
   .container {
     width: 960px;
   }
-}
+} */
 
 @media screen and (max-width: 1080px) {
   .container {
@@ -833,7 +833,7 @@ br.clear {
 }
 @media screen and (min-width: 1200px) and (max-width: 1680px) {
   .container {
-    width: 960px;
+    width: 85%;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -2461,7 +2461,7 @@ body.is-preload #header footer {
   }
   /* Container */
   .container {
-    width: 77rem;
+    width: 90%;
   }
   #header footer {
     bottom: 1rem;
