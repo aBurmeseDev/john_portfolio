@@ -16,5 +16,13 @@ let x = setInterval(function() {
 
   // display the result in the element with id-memo
   document.getElementById('demo').innerHTML =
-    'Launching ' + days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's ';
+    'Coming Soon! - ' +
+    days +
+    'd ' +
+    hours +
+    'h ' +
+    minutes +
+    'm ' +
+    seconds +
+    's ';
 });
