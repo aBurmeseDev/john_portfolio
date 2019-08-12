@@ -163,7 +163,12 @@ textarea {
   -ms-appearance: none;
   appearance: none;
 }
-
+/* Countdown */
+#demo {
+  text-align: center;
+  margin-top: 0px;
+  color: #ffffff;
+}
 /* Basic */
 
 html {
@@ -2625,9 +2630,7 @@ body.is-preload #header footer {
     position: relative;
     padding: 30px 0 0 0;
   }
-  .box.style2 .inner:after {
-    border: none;
-  }
+
   .box.style3 {
     padding: 2.5em 2em 2.5em 2em;
   }
@@ -2836,11 +2839,7 @@ body.is-preload #header footer {
     margin-bottom: -16.5px;
     background-size: 45px 33px;
   }
-  /* Countdown */
-  #demo {
-    text-align: center;
-    margin-top: 0px;
-  }
+
   /* Banner */
 
   #banner {
@@ -2867,6 +2866,9 @@ body.is-preload #header footer {
   #footer .copyright {
     font-size: 1em;
     margin: 0 0 4em 0;
+  }
+  #footer:after {
+    height: 0;
   }
 
   /* Poptrox */
@@ -2897,5 +2899,8 @@ body.is-preload #header footer {
   }
   .box.style2 .inner:after {
     border: none;
+  }
+  #footer:after {
+    height: 0;
   }
 }
