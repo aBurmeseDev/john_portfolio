@@ -2831,7 +2831,12 @@ body.is-preload #header footer {
     margin-bottom: -16.5px;
     background-size: 45px 33px;
   }
-
+  /* Countdown */
+  #demo {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+  }
   /* Banner */
 
   #banner {
