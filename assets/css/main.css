@@ -2129,7 +2129,7 @@ button.style3:hover,
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
   margin: 0;
-  padding: 14em 0 14em 0;
+  padding: 9em 0 12em 0;
   cursor: default;
 }
 
@@ -2178,7 +2178,7 @@ button.style3:hover,
   width: 100%;
 }
 
-#header footer:after {
+/* #header footer:after {
   content: '';
   display: block;
   position: absolute;
@@ -2186,10 +2186,10 @@ button.style3:hover,
   left: 50%;
   height: 9em;
   border-left: solid 1px #444;
-}
+} */
 
-#header footer:before {
-  content: '';
+#header .arrow {
+  color: #000000;
   display: block;
   width: 90px;
   height: 66px;
@@ -2198,7 +2198,7 @@ button.style3:hover,
   bottom: -4.5em;
   margin-left: -45px;
   margin-bottom: -33px;
-  background: url('images/arrow.svg') no-repeat;
+  /* background: url('images/arrow.svg') no-repeat; */
 }
 
 body.is-preload #header {
