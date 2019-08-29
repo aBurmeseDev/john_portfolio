@@ -182,7 +182,7 @@ html {
 }
 
 body {
-  background-color: #070010;
+  background-color: #fff;
   background-image: url('images/overlay.png');
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1691,7 +1691,7 @@ ul.menu {
 ul.menu li {
   display: inline-block;
   line-height: 1em;
-  border-left: solid 1px #dad9d9;
+  border-left: solid 1px #585858;
   padding: 0 0 0 0.5em;
   margin: 0 0 0 0.5em;
   color: #444;
