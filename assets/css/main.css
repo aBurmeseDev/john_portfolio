@@ -191,7 +191,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18pt;
   line-height: 1.75em;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: 1px;
   color: #000000;
   text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
@@ -222,7 +222,7 @@ select {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18pt;
   line-height: 1.75em;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: 1px;
   color: #3a3939;
   text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
@@ -235,7 +235,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   line-height: 1.75em;
 }
@@ -1875,7 +1875,7 @@ button,
   padding: 0.5em 3em 0.5em 3em;
   text-align: center;
   border-radius: 3em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 input[type='button']:hover,
@@ -1915,10 +1915,10 @@ input[type='reset'].style3,
 button.style3,
 .button.style3 {
   background-color: #000000;
-  color: #276ef1;
+  /* color: #276ef1; */
   /* border: 2px solid #276ef1; */
   transition-property: background-color, color;
-  transition-duration: 0.5s, 0.5s;
+  transition-duration: 0.3s, 0.3s;
   transition-timing-function: ease-in-out, ease-in-out;
   transition-delay: 0s, 0s;
 }
@@ -2236,8 +2236,9 @@ body.is-preload #header footer {
 }
 
 #banner .button {
-  color: #0042ab;
-  text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
+  color: #276ef1;
+  border: 2px solid #276ef1;
+  /* text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25); */
 }
 
 #banner header {
@@ -2245,7 +2246,7 @@ body.is-preload #header footer {
 }
 
 #banner header h2 {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1.75em;
   letter-spacing: 8px;
 }
