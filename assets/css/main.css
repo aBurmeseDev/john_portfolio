@@ -1591,7 +1591,7 @@ article:last-child {
 }
 /* Project Label */
 .projectLabel {
-  color: #ffffff;
+  color: #276ef1;
 }
 /* Image */
 
@@ -2021,11 +2021,13 @@ button.style3:hover,
 
 .box.style2 header {
   display: inline-block;
-  background: #444;
+  background: #000000;
   padding: 2em 3em 2em 3em;
   margin: 0;
 }
-
+.box.style2 header h3 {
+  color: #fff;
+}
 .box.style2 header p {
   padding: 0;
 }
