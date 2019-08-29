@@ -1694,6 +1694,7 @@ ul.menu li {
   border-left: solid 1px #dad9d9;
   padding: 0 0 0 0.5em;
   margin: 0 0 0 0.5em;
+  color: #444;
 }
 
 ul.menu li:first-child {
@@ -2128,6 +2129,7 @@ button.style3:hover,
 }
 
 #header header h1 {
+  color: #444;
   font-weight: 600;
   font-size: 2em;
   letter-spacing: 10px;
@@ -2135,7 +2137,7 @@ button.style3:hover,
 
 #header header p {
   border-top: solid 1px dodgerblue;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(99, 99, 99, 0.75);
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
   font-size: 1em;
   text-transform: uppercase;
