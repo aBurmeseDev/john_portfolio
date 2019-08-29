@@ -2135,7 +2135,7 @@ button.style3:hover,
 
 #header header {
   display: inline-block;
-  padding: 0 0 4.5em 0;
+  padding: 0 0 5em 0;
 }
 
 #header header h1 {
@@ -2474,7 +2474,7 @@ body.is-preload #header footer {
   /* Header */
 
   #header {
-    padding: 3em 0 5em 0;
+    padding: 5em 0 10em 0;
     margin-top: 6rem;
   }
   /* Container */
