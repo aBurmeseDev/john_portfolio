@@ -2013,7 +2013,7 @@ button.style3:hover,
 
 .box.style2 header {
   display: inline-block;
-  background: #fff;
+  background: #444;
   padding: 2em 3em 2em 3em;
   margin: 0;
 }
@@ -2296,7 +2296,7 @@ body.is-preload #header footer {
 #footer .icons {
   padding: 0.75em 2em 0.75em 2em;
   border-radius: 3em;
-  border: solid 1px #fff;
+  border: solid 1px #444;
   display: inline-block;
   margin: 0 0 3em 0;
 }
