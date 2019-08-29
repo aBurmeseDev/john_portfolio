@@ -2563,7 +2563,7 @@ body.is-preload #header footer {
 
   body {
     background-color: #fff;
-    background-image: url('images/overlay.png'), url('../../images/bg-alt.jpg');
+    /* background-image: url('images/overlay.png'), url('../../images/bg-alt.jpg'); */
     background-repeat: repeat, no-repeat;
     background-size: auto, 100% auto;
     background-position: top left, top center;
