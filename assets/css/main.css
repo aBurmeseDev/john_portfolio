@@ -1935,7 +1935,7 @@ button.style3:hover,
   top: -9em;
   left: 50%;
   height: 9em;
-  border-left: solid 1px #fff;
+  border-left: solid 1px #444;
 }
 
 .box:before {
@@ -2034,7 +2034,7 @@ button.style3:hover,
   top: 0;
   left: 50%;
   height: 100%;
-  border-left: solid 1px #fff;
+  border-left: solid 1px #444;
 }
 
 .box.style2 .inner .row {
@@ -2175,7 +2175,7 @@ button.style3:hover,
   bottom: -9em;
   left: 50%;
   height: 9em;
-  border-left: solid 1px #fff;
+  border-left: solid 1px #444;
 }
 
 #header footer:before {
@@ -2278,11 +2278,11 @@ body.is-preload #header footer {
   top: -4.5em;
   left: 50%;
   height: 4.5em;
-  border-left: solid 1px #fff;
+  border-left: solid 1px #444;
 }
 
 #footer a {
-  color: #fff;
+  color: #444;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   border-bottom-color: rgba(255, 255, 255, 0.5);
 }
