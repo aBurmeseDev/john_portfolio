@@ -1889,7 +1889,6 @@ button.style2,
 .button.style2 {
   color: #fff;
   background-color: #276ef1;
-  /* box-shadow: inset 0 0 0 1px #fff; */
   transition-property: background-color, color;
   transition-duration: 0.5s, 0.5s;
   transition-timing-function: ease-in-out, ease-in-out;
@@ -1911,9 +1910,13 @@ input[type='submit'].style3,
 input[type='reset'].style3,
 button.style3,
 .button.style3 {
-  background: none;
-  color: #3a3939;
-  box-shadow: inset 0 0 0 1px #dad9d9;
+  background-color: #000000;
+  color: #276ef1;
+  /* border: 2px solid #276ef1; */
+  transition-property: background-color, color;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0s;
 }
 
 input[type='button'].style3:hover,
@@ -1921,7 +1924,8 @@ input[type='submit'].style3:hover,
 input[type='reset'].style3:hover,
 button.style3:hover,
 .button.style3:hover {
-  background: rgba(58, 57, 57, 0.025);
+  color: #fff !important;
+  background-color: #276ef1;
 }
 
 /* Box */
@@ -2214,7 +2218,7 @@ body.is-preload #header footer {
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
-  background: #0042ab url('images/banner.svg') bottom center no-repeat;
+  background: #000000 url('images/banner.svg') bottom center no-repeat;
   padding: 5em 0 5em 0;
   margin: 0;
   background-size: 125% auto;
