@@ -1990,7 +1990,7 @@ h3 {
   position: absolute;
   top: 0;
   height: 100%;
-  width: auto;
+  width: 112%;
 }
 
 .box.style1 .inner > :last-child {
