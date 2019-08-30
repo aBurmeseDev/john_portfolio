@@ -989,6 +989,13 @@ button,
 
 /* Banner */
 
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  animation: typing 5.5s steps(50, end), blink-caret 0.75s step-end infinite;
+}
 #banner {
   position: relative;
   color: #fff;
@@ -1564,5 +1571,27 @@ button,
     .closer {
       opacity: 0.5;
     }
+  }
+}
+
+// keyframes
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #2007ff;
   }
 }
