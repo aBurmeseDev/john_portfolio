@@ -2984,7 +2984,7 @@ body.is-preload #header footer {
     width: 0;
   }
   to {
-    width: 7.5em;
+    width: 7.25em;
   }
 }
 @keyframes blinkTextCursor {
