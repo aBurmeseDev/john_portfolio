@@ -2161,7 +2161,7 @@ h3 {
 
 #header header p {
   border-top: solid 1px dodgerblue;
-  color: rgba(99, 99, 99, 0.75);
+  color: #000;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
   font-size: 1em;
   text-transform: uppercase;
