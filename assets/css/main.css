@@ -7,9 +7,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 @font-face{
-  font-family: "Bondi";
-  src: url(/assets/css/Bondi.ttf),
-  url(/assets/css/Bondi.eot); /* IE */
+  font-family: "Anurati-Regular";
+  src: url(/assets/css/Anurati-Regular.otf),
+  url(/assets/css/Anurati-Regular.eot); /* IE */
 }
 html,
 body,
@@ -19,7 +19,7 @@ applet,
 object,
 iframe,
 h1 {
-  font-family: 'Bondi', sans-serif;
+  font-family: 'Anurati-Regular', sans-serif;
   font-weight: 300 !important;
 }
 
@@ -2155,7 +2155,7 @@ h3 {
   font-weight: 600;
   font-size: 2em;
   letter-spacing: 10px;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 #header header p {
