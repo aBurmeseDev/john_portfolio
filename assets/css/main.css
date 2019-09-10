@@ -19,7 +19,7 @@ applet,
 object,
 iframe,
 h1 {
-  font-family: 'Anurati-Regular', sans-serif;
+  font-family: sans-serif;
   font-weight: 300 !important;
 }
 
@@ -1595,7 +1595,8 @@ article:last-child {
 }
 /* Project Label */
 .projectLabel {
-  color: #276ef1;
+  font-family: 'Literata',sans-serif;
+  color: #000;
 }
 /* Image */
 
@@ -2151,6 +2152,7 @@ h3 {
 }
 
 #header header h1 {
+  font-family: 'Anurati-Regular', sans-serif;
   color: #276ef1;
   font-weight: 600;
   font-size: 2em;
@@ -2159,7 +2161,7 @@ h3 {
 
 #header header p {
   border-top: solid 1px dodgerblue;
-  color: rgba(99, 99, 99, 0.75);
+  color: #000;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
   font-size: 1em;
   text-transform: uppercase;
@@ -2284,6 +2286,7 @@ body.is-preload #header footer {
 }
 /* Recent Project */
 #recent {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 62%;
 }
 /* MORE footer */
