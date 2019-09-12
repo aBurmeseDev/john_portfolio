@@ -2377,6 +2377,7 @@ body.is-preload #header footer {
   text-align: center;
   cursor: default;
   z-index: 1;
+  font-size: 12px;
 }
 
 .poptrox-popup .nav-next,
