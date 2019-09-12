@@ -324,7 +324,9 @@ table {
 header p {
   display: block;
   margin: 0.5em 0 0 0;
-  padding: 0 0 1.5em 0;
+  padding: 0 0 .5em 0;
+  color: #fff;
+  font-size: 0.75rem;
 }
 
 footer {
@@ -2375,6 +2377,7 @@ body.is-preload #header footer {
   text-align: center;
   cursor: default;
   z-index: 1;
+  font-size: 12px;
 }
 
 .poptrox-popup .nav-next,
