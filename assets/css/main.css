@@ -836,7 +836,7 @@ br.clear {
     padding-top: 80px;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1680px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
   .container {
     width: 85%;
   }
