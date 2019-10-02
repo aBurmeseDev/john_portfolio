@@ -6,7 +6,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+@font-face {
+  font-family: 'Anurati-Regular';
+  src: url(/assets/css/Anurati-Regular.otf),
+    url(/assets/css/Anurati-Regular.eot); /* IE */
+}
 html,
 body,
 div,
@@ -15,7 +19,7 @@ applet,
 object,
 iframe,
 h1 {
-  font-family: 'Literata', sans-serif;
+  font-family: sans-serif;
   font-weight: 300 !important;
 }
 
@@ -320,7 +324,9 @@ table {
 header p {
   display: block;
   margin: 0.5em 0 0 0;
-  padding: 0 0 1.5em 0;
+  padding: 0 0 0.5em 0;
+  color: #fff;
+  font-size: 0.75rem;
 }
 
 footer {
@@ -1591,7 +1597,8 @@ article:last-child {
 }
 /* Project Label */
 .projectLabel {
-  color: #276ef1;
+  font-family: 'Literata', sans-serif;
+  color: #000;
 }
 /* Image */
 
@@ -2147,7 +2154,8 @@ h3 {
 }
 
 #header header h1 {
-  color: #000000;
+  font-family: 'Anurati-Regular', sans-serif;
+  color: #276ef1;
   font-weight: 600;
   font-size: 2em;
   letter-spacing: 10px;
@@ -2155,7 +2163,7 @@ h3 {
 
 #header header p {
   border-top: solid 1px dodgerblue;
-  color: rgba(99, 99, 99, 0.75);
+  color: #000;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
   font-size: 1em;
   text-transform: uppercase;
@@ -2280,6 +2288,7 @@ body.is-preload #header footer {
 }
 /* Recent Project */
 #recent {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 62%;
 }
 /* MORE footer */
@@ -2368,6 +2377,7 @@ body.is-preload #header footer {
   text-align: center;
   cursor: default;
   z-index: 1;
+  font-size: 12px;
 }
 
 .poptrox-popup .nav-next,
@@ -2976,7 +2986,7 @@ body.is-preload #header footer {
 .anim-typewriter {
   animation: typewriter 2s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-  animation-delay: 5s;
+  animation-delay: 9s;
 }
 
 @keyframes typewriter {
