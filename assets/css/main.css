@@ -6,10 +6,10 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-@font-face{
-  font-family: "Anurati-Regular";
+@font-face {
+  font-family: 'Anurati-Regular';
   src: url(/assets/css/Anurati-Regular.otf),
-  url(/assets/css/Anurati-Regular.eot); /* IE */
+    url(/assets/css/Anurati-Regular.eot); /* IE */
 }
 html,
 body,
@@ -324,7 +324,7 @@ table {
 header p {
   display: block;
   margin: 0.5em 0 0 0;
-  padding: 0 0 .5em 0;
+  padding: 0 0 0.5em 0;
   color: #fff;
   font-size: 0.75rem;
 }
@@ -842,7 +842,7 @@ br.clear {
     padding-top: 80px;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1680px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
   .container {
     width: 85%;
   }
@@ -1597,7 +1597,7 @@ article:last-child {
 }
 /* Project Label */
 .projectLabel {
-  font-family: 'Literata',sans-serif;
+  font-family: 'Literata', sans-serif;
   color: #000;
 }
 /* Image */
