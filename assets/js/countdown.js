@@ -1,5 +1,5 @@
 // set the date that's counting down
-let countDownDate = new Date('Oct 30, 2019 15:30:25').getTime();
+let countDownDate = new Date('Oct 31, 2019 15:30:25').getTime();
 
 // update the count down every 1 second
 let x = setInterval(function() {
@@ -16,7 +16,7 @@ let x = setInterval(function() {
 
   // display the result in the element with id-memo
   document.getElementById('demo').innerHTML =
-    'Coming Soon! - ' +
+    'Work in Progress - ' +
     days +
     'd ' +
     hours +
