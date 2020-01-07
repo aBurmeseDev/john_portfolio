@@ -1600,6 +1600,10 @@ article:last-child {
   font-family: 'Literata', sans-serif;
   color: #000;
 }
+.fa-play, .fa-github {
+  color: #2a74ff !important;
+}
+
 /* Image */
 
 .image {
