@@ -1600,6 +1600,13 @@ article:last-child {
   font-family: 'Literata', sans-serif;
   color: #000;
 }
+h2, h3 {
+  font-family: 'Kurale', serif;
+}
+.fa-play {
+  color: #2a74ff !important;
+}
+
 /* Image */
 
 .image {
