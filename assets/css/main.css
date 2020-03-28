@@ -2263,7 +2263,7 @@ body.is-preload #header footer {
 
 #banner .button {
   color: #276ef1;
-  border: 2px solid #276ef1;
+  /* border: 2px solid #276ef1; */
   /* text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25); */
 }
 
