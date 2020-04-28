@@ -1908,9 +1908,9 @@ button.style2,
   color: #fff;
   background-color: #276ef1;
   transition-property: background-color, color;
-  transition-duration: 0.5s, 0.5s;
+  transition-duration: 0.75s, 0.75s;
   transition-timing-function: ease-in-out, ease-in-out;
-  transition-delay: 0s, 0s;
+  transition-delay: 0.25s, 0.25s;
 }
 
 input[type='button'].style2:hover,
@@ -2142,13 +2142,13 @@ h3 {
   border-radius: 20px;
 }
 #header {
-  -moz-transition: opacity 2s ease-in-out;
-  -webkit-transition: opacity 2s ease-in-out;
-  -ms-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 4s ease-in-out;
+  -webkit-transition: opacity 4s ease-in-out;
+  -ms-transition: opacity 4s ease-in-out;
+  transition: opacity 4s ease-in-out;
   position: relative;
   color: #fff;
-  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+  text-shadow: 9px -5px 20px rgb(41, 4, 208);
   text-align: center;
   margin: 0;
   padding: 9em 0 12em 0;
