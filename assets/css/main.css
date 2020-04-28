@@ -186,7 +186,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #fbfbfd;
   /* background-image: url('images/overlay.png'); */
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1790,7 +1790,7 @@ form select {
 
 form select option {
   color: #3a3939;
-  background: #ffffff;
+  background: #fff;
 }
 
 form select:focus::-ms-value {
@@ -1905,12 +1905,13 @@ input[type='submit'].style2,
 input[type='reset'].style2,
 button.style2,
 .button.style2 {
+  font-size: 1.25rem;
   color: #fff;
   background-color: #276ef1;
   transition-property: background-color, color;
-  transition-duration: 0.75s, 0.75s;
+  transition-duration: 0.5s, 0.5s;
   transition-timing-function: ease-in-out, ease-in-out;
-  transition-delay: 0.25s, 0.25s;
+  transition-delay: 0s, 0s;
 }
 
 input[type='button'].style2:hover,
@@ -2254,7 +2255,7 @@ body.is-preload #header footer {
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   text-align: center;
-  background: #000000 url('images/banner.svg') bottom center no-repeat;
+  background: #131313 url('images/banner.svg') bottom center no-repeat;
   padding: 5em 0 5em 0;
   margin: 0;
   background-size: 125% auto;
