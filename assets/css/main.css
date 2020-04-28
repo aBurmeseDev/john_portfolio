@@ -1914,7 +1914,6 @@ table thead {
 input[type='button'],
 input[type='submit'],
 input[type='reset'],
-button,
 .button {
   -moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
   -webkit-transition: background-color 0.35s ease-in-out,
@@ -1924,6 +1923,27 @@ button,
   -webkit-appearance: none;
   position: relative;
   display: inline-block;
+  border: 0;
+  background: #3399ff;
+  color: #fff;
+  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+  padding: 0.5em 2em 0.5em 2em;
+  text-align: center;
+  border-radius: 3em;
+  font-weight: 300;
+}
+button {
+  -moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  -webkit-transition: background-color 0.35s ease-in-out,
+    color 0.35s ease-in-out;
+  -ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+  -webkit-appearance: none;
+  display: block;
+  margin: 0 auto;
   border: 0;
   background: #3399ff;
   color: #fff;
