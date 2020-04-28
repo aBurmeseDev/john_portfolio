@@ -222,8 +222,10 @@ body {
 .dark-mode p#recent {
   color: #000;
 }
-.dark-mode #second header, #second header h3 {
+.dark-mode #second header{
   background: #fbfbfd;
+}
+.dark-mode #second header h3 {
   color: #000;
 }
 .dark-mode #banner {
@@ -373,7 +375,7 @@ header p {
 }
 
 footer {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 br.clear {
@@ -2028,6 +2030,7 @@ button.style3:hover,
 .box.style1 {
   background: #000000;
   padding: 1em;
+  border-radius: 1em;
 }
 .box.style1 p,
 h2,
@@ -2061,6 +2064,7 @@ h3 {
 
 .box.style1.right .image img {
   right: 0;
+  border-radius: 1em;
 }
 
 .box.style1.right .inner {
@@ -2341,6 +2345,7 @@ body.is-preload #header footer {
 #recent {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 62%;
+  font-weight: 400;
 }
 /* MORE footer */
 #more {
