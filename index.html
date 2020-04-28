@@ -12,10 +12,12 @@
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 </head>
 
 <body class="is-preload">
   <!-- Header -->
+  <button onclick="myDarkMode()">Toggle dark mode</button>
   <section id="header">
     <header>
       <h1>John Lwin</h1>
@@ -252,7 +254,7 @@
         <li>
           Download
           <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Ab7e4c6a3-ec2c-4d70-8ad5-74f25581047f"
-            target="_blank">RESUME</a>
+            target="_blank">Resume</a>
         </li>
       </ul>
     </div>
@@ -267,6 +269,13 @@
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/countdown.js"></script>
+  <script>
+    function myDarkMode() {
+      let element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+
 </body>
 
 </html>
