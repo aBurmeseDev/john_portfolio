@@ -12,14 +12,16 @@
   <link rel="stylesheet" href="assets/css/main.css" />
   <noscript>
     <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
 </head>
 
 <body class="is-preload">
   <!-- Header -->
+  <button onclick="myDarkMode()">Toggle dark mode</button>
   <section id="header">
     <header>
       <h1>John Lwin</h1>
-      <p>Full Stack Software Developer</p>
+      <p>Software Developer</p>
     </header>
     <footer>
       <a href="#banner" class="button style2 scrolly-middle">About Me </i></a>
@@ -35,13 +37,13 @@
       <img src="images/self-portrait.png" alt="creator's picture" class="headPic" />
     </header>
 
-    <h3>Why I code</h3>
+    <h3>Why code</h3>
     <p>
       Motivated by the Desire to Solve Problems and Make a Difference with
       Coding
     </p>
 
-    <h3>What I know</h3>
+    <h3>Expertise</h3>
     <p>
       React | JavaScript | JQuery | HTML5 | CSS3 | Bootstrap UI | Materialize
       UI | Semantic UI <br />
@@ -252,7 +254,7 @@
         <li>
           Download
           <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Ab7e4c6a3-ec2c-4d70-8ad5-74f25581047f"
-            target="_blank">RESUME</a>
+            target="_blank">Resume</a>
         </li>
       </ul>
     </div>
@@ -267,6 +269,13 @@
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/countdown.js"></script>
+  <script>
+    function myDarkMode() {
+      let element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+
 </body>
 
 </html>
