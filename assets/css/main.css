@@ -2219,7 +2219,7 @@ h3 {
   transition: opacity 4s ease-in-out;
   position: relative;
   color: #fff;
-  text-shadow: 9px -5px 20px rgb(41, 4, 208);
+  /* text-shadow: 9px -5px 20px rgb(41, 4, 208); */
   text-align: center;
   margin: 0;
   padding: 9em 0 12em 0;
