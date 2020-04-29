@@ -206,6 +206,9 @@ body {
   background-color: #131313;
   color: #fbfbfd;
 }
+.dark-mode button {
+  background: #45c89f;
+}
 .dark-mode #header p, header h1 {
   color: #fff;
 }
@@ -1948,7 +1951,7 @@ button {
   display: block;
   margin: 0 auto;
   border: 0;
-  background: #3399ff;
+  background: #131313;
   color: #fff;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
   cursor: pointer;
@@ -2219,7 +2222,7 @@ h3 {
   transition: opacity 4s ease-in-out;
   position: relative;
   color: #fff;
-  text-shadow: 9px -5px 20px rgb(41, 4, 208);
+  /* text-shadow: 9px -5px 20px rgb(41, 4, 208); */
   text-align: center;
   margin: 0;
   padding: 9em 0 12em 0;
