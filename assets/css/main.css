@@ -216,7 +216,10 @@ body {
 .dark-mode #first{
   background: #fbfbfd;
 }
-.dark-mode #first h2, .inner h3{
+.dark-mode #first h2 {
+  color: #000;
+}
+.dark-mode .inner h3 {
   color: #000;
 }
 .dark-mode p#recent {
