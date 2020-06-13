@@ -2244,7 +2244,7 @@ h3 {
 }
 
 #header header p {
-  border-top: solid 1px dodgerblue;
+  border-top: solid 1px #276ef1;
   color: #000;
   text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
   font-size: 1em;
@@ -3053,10 +3053,10 @@ body.is-preload #header footer {
 .line-1 {
   position: relative;
   top: 70%;
-
+  height: 32px;
   width: 7.5em;
   margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  border-right: 7px solid #276ef1;
   font-size: 1em;
   text-align: center;
   white-space: nowrap;
@@ -3068,7 +3068,7 @@ body.is-preload #header footer {
 .anim-typewriter {
   animation: typewriter 2s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-  animation-delay: 9s;
+  animation-delay: 7s;
 }
 
 @keyframes typewriter {
@@ -3081,7 +3081,7 @@ body.is-preload #header footer {
 }
 @keyframes blinkTextCursor {
   from {
-    border-right-color: rgba(255, 255, 255, 0.75);
+    border-right-color: #276ef1;
   }
   to {
     border-right-color: transparent;
