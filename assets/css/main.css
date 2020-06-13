@@ -2358,9 +2358,10 @@ body.is-preload #header footer {
   letter-spacing: 8px;
 }
 
-/* #banner p {
-  margin: 0;
-} */
+#banner p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75em;
+} 
 
 #banner footer {
   margin: 2em 0 0 0;
