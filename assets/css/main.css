@@ -202,7 +202,7 @@ body {
 }
 /* dark mode */
 .dark-mode {
-  background-color: #525f7f;
+  background-color: #000;
   color: #f9f9fc;
 }
 .dark-mode button {
