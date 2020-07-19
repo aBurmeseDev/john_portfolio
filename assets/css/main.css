@@ -2002,8 +2002,7 @@ input[type='reset'].style3,
 button.style3,
 .button.style3 {
   background-color: #f9f9fc;
-  /* color: #276ef1; */
-  /* border: 2px solid #276ef1; */
+  font-size: 0.8em;
   transition-property: background-color, color;
   transition-duration: 0.3s, 0.3s;
   transition-timing-function: ease-in-out, ease-in-out;
